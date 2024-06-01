@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Javier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="path/to/your/profile-picture.jpg" alt="Profile Picture">
+            <h1>Adrian Javier</h1>
+            <p>Bachelor of Science in Information Technology at Bicol University</p>
+        </div>
+    </header>
+    <section id="dream-job">
+        <h2>Dream Job</h2>
+        <div class="jobs">
+            <div class="job">Software Developer</div>
+            <div class="job">Web Developer</div>
+            <div class="job">Game Developer</div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-items">
+            <div class="item">
+                <img src="path/to/image1.jpg" alt="Portfolio Item 1">
+                <p>CGS Summit 2024</p>
+            </div>
+            <div class="item">
+                <img src="path/to/image2.jpg" alt="Portfolio Item 2">
+                <p>CGS Summit 2024</p>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-details">
+            <img src="path/to/education-logo.jpg" alt="Education Logo">
+            <p>Details about education...</p>
+        </div>
+    </section>
+    <section id="hobbies">
+        <h2>Hobbies and Interests</h2>
+        <div class="hobbies">
+            <div class="hobby">Programming</div>
+            <div class="hobby">Watching TV shows</div>
+            <div class="hobby">Playing Basketball</div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #1f1f1f;
+}
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+h2 {
+    color: #2ecc71;
+}
+.jobs, .portfolio-items, .hobbies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.job, .item, .hobby {
+    background-color: #333;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.education-details {
+    text-align: center;
+}
+.education-details img {
+    width: 100px;
+}
